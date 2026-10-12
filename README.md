@@ -50,10 +50,12 @@ the paper ([main.tex](main.tex)).
 | `main.tex` | The paper (LaTeX): methods, results, appendix; figures from `figures/` |
 | `src/` | Analysis code: spike-timing perturbations, evaluation harness, statistics, ridge control, unit properties, embedding probes, lesions, embedding swaps, codebooks (neuron letters) |
 | `scripts/setup/`, `timing/`, `embeddings/`, `lesions/`, `transfer/`, `codebook/` | Runners and analyses for each part of the study |
+| `scripts/setup/inspect_session.py` | Prints the structure of one processed session (optional helper; not part of `reproduce.sh`) |
+| `scripts/setup/check_splits.py` | Prints how much the current test split overlaps the old (pre-`c221ea9`) splits (optional helper; not part of `reproduce.sh`) |
 | `scripts/audit/` | Independent cross-checks of the published results |
 | `scripts/docs/` | Draws the paper's figures in one shared style |
 | `tests/` | Tests |
-| `results/` | Every result table (files listed below) |
+| `results/` | Results |
 | `figures/` | Paper figures, named by figure number |
 | `reproduce.sh` | Re-runs every analysis, figure and check (see Reproduce) |
 | `environment.yml`, `pip_freeze.txt` | Pinned environment (`pip_freeze.txt`: exact versions of every package) |

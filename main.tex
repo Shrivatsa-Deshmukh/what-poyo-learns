@@ -172,7 +172,7 @@ We probed a pretrained spike-token decoder without retraining it, testing its un
 
 \section*{Code and data availability}
 
-Code, result files, figures and audit scripts are available at [GITHUB LINK]. Every number in this paper can be checked from the released result files without re-running the experiments. The data are the public \texttt{perich\_miller\_population\_2018} dataset~\cite{ref3} (DANDI 000688), and the model is the public POYO-MP checkpoint~\cite{ref1}.
+Code, result files, figures and audit scripts are available at \url{https://github.com/Shrivatsa-Deshmukh/what-poyo-learns}. Every number in this paper can be checked from the released result files without re-running the experiments. The data are the public \texttt{perich\_miller\_population\_2018} dataset~\cite{ref3} (DANDI 000688), and the model is the public POYO-MP checkpoint~\cite{ref1}.
 
 \section*{Acknowledgements}
 
@@ -246,7 +246,7 @@ All inference is at the session level: means or medians across sessions, session
 
 \textbf{Days apart.} For each session, one same-task donor is drawn in each of four bins of time apart; the 3-day pool of a bin adds the two same-task sessions of that bin nearest in date to the donor.
 
-\textbf{Fixed ridge.} A ridge decoder on spike counts per electrode (100 ms bins, 300 ms of history; Appendix C.2) is fitted on the donor day and applied unchanged to the target day; electrodes absent on the target day are set to their training mean. With three days, the three decoders' predictions are averaged. \emph{Kept} is R$^{2}$ divided by the session's own reference R$^{2}$ (POYO: the unmodified model; ridge: the session's own decoder, median R$^{2}$ 0.62). We report medians, because a failing ridge decoder can reach R$^{2}$ far below 0.
+\textbf{Fixed ridge.} The ridge decoder of Appendix C.2 at 100 ms bins (3 bins, 300 ms of history), but on spike counts per electrode rather than per unit (the units of an electrode are summed, so the decoder can be applied on another day), is fitted on the donor day and applied unchanged to the target day; electrodes absent on the target day are set to their training mean, and spikes on electrodes the donor never recorded are dropped. With three days, the three decoders' predictions are averaged. \emph{Kept} is R$^{2}$ divided by the session's own reference R$^{2}$ (POYO: the unmodified model; ridge: the session's own decoder, median R$^{2}$ 0.62). We report medians, because a failing ridge decoder can reach R$^{2}$ far below 0.
 
 \begin{table}[!tbp]
 \centering
