@@ -1,0 +1,55 @@
+session,task,set,n_intervals,n_short_excluded,n_windows,n_scored,r2
+c_20131003_center_out_reaching,CO,old_test_split,38,1,257,3538,0.944043755531311
+c_20131003_center_out_reaching,CO,old:valid_trials_in_train,61,0,369,6244,0.9532400369644165
+c_20131003_center_out_reaching,CO,old:valid_trials_in_test,35,0,216,3538,0.944043755531311
+c_20131003_center_out_reaching,CO,cur_test_split,32,0,192,3252,0.8981348276138306
+c_20131003_center_out_reaching,CO,cur:valid_trials_in_train,56,0,343,5772,0.9938992261886597
+c_20131003_center_out_reaching,CO,cur:valid_trials_in_test,32,0,192,3252,0.8981348276138306
+c_20131003_center_out_reaching,CO,x:cur_test & old_train,11,0,61,1095,0.9032807350158691
+c_20131003_center_out_reaching,CO,x:old_test & cur_train,11,0,67,1107,0.9945988059043884
+c_20131003_center_out_reaching,CO,x:test in both,7,0,43,663,0.8610360622406006
+c_20131009_random_target_reaching,RT,old_test_split,36,2,462,10238,0.9558230042457581
+c_20131009_random_target_reaching,RT,old:valid_trials_in_train,88,0,517,28172,0.9486943483352661
+c_20131009_random_target_reaching,RT,old:valid_trials_in_test,29,0,156,8443,0.9506661891937256
+c_20131009_random_target_reaching,RT,cur_test_split,26,0,148,8230,0.8598816394805908
+c_20131009_random_target_reaching,RT,cur:valid_trials_in_train,90,0,532,28755,0.982155442237854
+c_20131009_random_target_reaching,RT,cur:valid_trials_in_test,26,0,148,8230,0.8598816394805908
+c_20131009_random_target_reaching,RT,x:cur_test & old_train,17,0,93,5075,0.8525536060333252
+c_20131009_random_target_reaching,RT,x:old_test & cur_train,22,0,122,6444,0.9820011258125305
+c_20131009_random_target_reaching,RT,x:test in both,6,0,30,1753,0.8566111922264099
+m_20140203_center_out_reaching,CO,old_test_split,49,0,562,4693,0.9632488489151001
+m_20140203_center_out_reaching,CO,old:valid_trials_in_train,55,0,479,7458,0.976688027381897
+m_20140203_center_out_reaching,CO,old:valid_trials_in_test,34,0,302,4693,0.9632488489151001
+m_20140203_center_out_reaching,CO,cur_test_split,32,0,280,4518,0.9110041856765747
+m_20140203_center_out_reaching,CO,cur:valid_trials_in_train,59,0,515,8031,0.9946104288101196
+m_20140203_center_out_reaching,CO,cur:valid_trials_in_test,32,0,280,4518,0.9110041856765747
+m_20140203_center_out_reaching,CO,x:cur_test & old_train,14,0,127,1997,0.9259690046310425
+m_20140203_center_out_reaching,CO,x:old_test & cur_train,16,0,141,2166,0.9946849346160889
+m_20140203_center_out_reaching,CO,x:test in both,6,0,52,808,0.8716316223144531
+j_20160405_center_out_reaching,CO,old_test_split,65,0,472,4271,0.9552035331726074
+j_20160405_center_out_reaching,CO,old:valid_trials_in_train,70,0,570,8312,0.9597411155700684
+j_20160405_center_out_reaching,CO,old:valid_trials_in_test,38,0,301,4271,0.9552035331726074
+j_20160405_center_out_reaching,CO,cur_test_split,41,0,317,4790,0.9091603755950928
+j_20160405_center_out_reaching,CO,cur:valid_trials_in_train,95,0,778,11219,0.9947500824928284
+j_20160405_center_out_reaching,CO,cur:valid_trials_in_test,41,0,317,4790,0.9091603755950928
+j_20160405_center_out_reaching,CO,x:cur_test & old_train,13,0,101,1539,0.9008913040161133
+j_20160405_center_out_reaching,CO,x:old_test & cur_train,20,0,160,2197,0.9940564632415771
+j_20160405_center_out_reaching,CO,x:test in both,7,0,51,813,0.8333232998847961
+m_20140114_random_target_reaching,RT,old_test_split,51,0,411,22624,0.9572949409484863
+m_20140114_random_target_reaching,RT,old:valid_trials_in_train,119,0,803,44467,0.9537543058395386
+m_20140114_random_target_reaching,RT,old:valid_trials_in_test,36,0,243,13437,0.9502832293510437
+m_20140114_random_target_reaching,RT,cur_test_split,35,0,228,12397,0.9022713899612427
+m_20140114_random_target_reaching,RT,cur:valid_trials_in_train,119,0,802,44749,0.9764420986175537
+m_20140114_random_target_reaching,RT,cur:valid_trials_in_test,35,0,228,12397,0.9022713899612427
+m_20140114_random_target_reaching,RT,x:cur_test & old_train,23,0,145,7935,0.904218316078186
+m_20140114_random_target_reaching,RT,x:old_test & cur_train,23,0,152,8612,0.9747229814529419
+m_20140114_random_target_reaching,RT,x:test in both,10,0,71,3800,0.9046271443367004
+c_20150316_random_target_reaching,RT,old_test_split,129,2,1079,38826,0.9618516564369202
+c_20150316_random_target_reaching,RT,old:valid_trials_in_train,327,0,1898,99849,0.9604154825210571
+c_20150316_random_target_reaching,RT,old:valid_trials_in_test,96,0,540,29855,0.957504391670227
+c_20150316_random_target_reaching,RT,cur_test_split,95,0,546,29385,0.907672643661499
+c_20150316_random_target_reaching,RT,cur:valid_trials_in_train,329,0,1858,99613,0.9826302528381348
+c_20150316_random_target_reaching,RT,cur:valid_trials_in_test,95,0,546,29385,0.907672643661499
+c_20150316_random_target_reaching,RT,x:cur_test & old_train,68,0,402,21112,0.9113616943359375
+c_20150316_random_target_reaching,RT,x:old_test & cur_train,69,0,379,20641,0.983248770236969
+c_20150316_random_target_reaching,RT,x:test in both,17,0,93,5374,0.8954602479934692
