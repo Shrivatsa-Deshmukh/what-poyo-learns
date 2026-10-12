@@ -7,7 +7,7 @@ can be reused on another recording day, using 99 sessions of monkey motor-cortex
 **without retraining the model**: only its test inputs are changed, or its learned weights read
 or swapped between days.
 
-Full methods, results, design decisions and limitations: the paper, **[main.tex](main.tex)**.
+Full methods, results, design decisions and limitations: **[Paper](what_poyo_learns)**.
 
 ![POYO-MP and the four analyses](figures/fig1_overview.png)
 
